@@ -3,7 +3,7 @@
     "jsx": "react",
     "paths": {
       "@/*": ["./src/*"],
-      "@/components/*": ["./components/*"]
+      "@/components/*": ["./src/components/*"]
     }
   }
 }

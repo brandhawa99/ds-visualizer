@@ -11,7 +11,7 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "../ui/button";
 
 // Asset imports
-import Placeholder from "../../../public/placeholder.webp";
+import Placeholder from "@/public/placeholder.webp";
 
 const Hero = () => {
   return (
@@ -24,20 +24,18 @@ const Hero = () => {
             size={"sm"}
             variant={"outline"}
           >
-            <Link className="not-prose" href="https://9d8.dev">
+            {/* <Link className="not-prose" href="https://9d8.dev">
               Lorem ipsum dolor sit amet <ArrowRight className="w-4" />
-            </Link>
+            </Link> */}
           </Button>
           <h1>
             <Balancer>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              Welcome to DataVision: Your Interactive Data Structures & Algorithms Visualizer
             </Balancer>
           </h1>
           <h3 className="text-muted-foreground">
             <Balancer>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Unlock the power of learning with DataVision, the ultimate tool for visualizing and mastering data structures and algorithms. Whether you're a student, developer, or tech enthusiast, our interactive platform brings complex concepts to life with engaging visuals and intuitive simulations. Dive into a world where algorithms come alive and data structures are no longer abstract ideas but dynamic, interactive experiences. Start exploring today and transform the way you understand and apply essential computer science principles.
             </Balancer>
           </h3>
           <div className="not-prose my-8 h-96 w-full overflow-hidden rounded-lg border md:h-[480px] md:rounded-xl">

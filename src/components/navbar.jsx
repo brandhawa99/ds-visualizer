@@ -65,7 +65,7 @@ export function NavBar() {
                     </NavigationMenuList>
                 </NavigationMenu>
                 <div className="flex items-center gap-2 max-[825px]:hidden">
-                    <Link href="/software">
+                    <Link href="/sorting">
                         <Button variant="ghost">Sorting</Button>
                     </Link>
                     <Link href="/automation">

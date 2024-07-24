@@ -22,9 +22,9 @@ export function NavBar() {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <SheetHeader>
-                            <SheetTitle>fabrika.</SheetTitle>
+                            <SheetTitle>Data Vision.</SheetTitle>
                             <SheetDescription>
-                                Scale and launch products with expert developers, on-demand, at a flat monthly fee
+                               Easily visualize data structures and algorithms 
                             </SheetDescription>
                         </SheetHeader>
                         <div className="flex flex-col space-y-3 mt-[1rem] z-[99]">
@@ -35,7 +35,7 @@ export function NavBar() {
                             </DialogClose>
                             <DialogClose asChild>
                                 <Link href="/software">
-                                    <Button variant="outline" className="w-full">Software</Button>
+                                    <Button variant="outline" className="w-full">Sorting</Button>
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
@@ -60,13 +60,13 @@ export function NavBar() {
                 <NavigationMenu>
                     <NavigationMenuList className="max-[825px]:hidden ">
                         <Link href="/" className="pl-2">
-                            <h1 className="font-bold">fabrika.</h1>
+                            <h1 className="font-bold">Data Vision.</h1>
                         </Link>
                     </NavigationMenuList>
                 </NavigationMenu>
                 <div className="flex items-center gap-2 max-[825px]:hidden">
                     <Link href="/software">
-                        <Button variant="ghost">Software</Button>
+                        <Button variant="ghost">Sorting</Button>
                     </Link>
                     <Link href="/automation">
                         <Button variant="ghost">Automation</Button>

@@ -6,8 +6,9 @@ export default function BubbleSort() {
     <Section>
       <Container>
         <h1>Bubble Sort</h1>
-        <div>
-          <Bar />
+        <div className="h-screen  justify-center flex flex-row gap-2 h-500 ">
+          <Bar height="20" />
+          <Bar height="60"/>
         </div>
       </Container>
     </Section>

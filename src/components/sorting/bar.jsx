@@ -1,7 +1,7 @@
-export default function Bar (){
+
+export default function Bar({height}){
   return(
-    <div>
-      hello
-    </div>
+        <div className={"w-2 bg-gray-500 "+" h-"+height}>
+        </div>
   )
 }
